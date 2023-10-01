@@ -1,0 +1,26 @@
+
+.transaction-list {
+    max-height: 500px;
+    border: 1px solid #ccc;
+    padding: 4px;
+}
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.transaction-date {
+    text-align: left;
+}
+
+.transaction-name {
+    flex: 2;
+    font-weight: bold;
+}
+
+.transaction-amount {
+    flex: 1;
+}
